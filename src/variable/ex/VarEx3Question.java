@@ -8,6 +8,4 @@ public class VarEx3Question {
         System.out.println(aLong);
         System.out.println(aBoolean);
     }
-
-
 }
