@@ -32,7 +32,7 @@ public class ProductAdminProcess {
                     System.out.println("등록된 상품이 없습니다.");
                     continue;
                 }
-                for (int i = 0; i <= productCount; i++) {
+                for (int i = 0; i < productCount; i++) {
                     System.out.println(productNames[i] + ": " + productPrice[i] + "원");
                 }
             } else if (menu == 3) {
